@@ -1,6 +1,6 @@
-from symbol_table import symbol_table
-from Parser import Parser
-from Code import Code
+from Assembler.symbol_table import symbol_table
+from Assembler.Parser import Parser
+from Assembler.Code import Code
 
 class Main:
     fileName = "mult.asm"
